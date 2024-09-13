@@ -13,4 +13,9 @@ public class Student extends Person {
         System.out.println("University: " + university + ", Course: " + course);
         System.out.println("Student is studying");
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", University: " + university + ", Course: " + course;
+    }
 }

@@ -13,4 +13,9 @@ public class Cadet extends Person {
         System.out.println("Rank: " + rank + ", Academy: " + academy);
         System.out.println("Cadet is training");
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Rank: " + rank + ", Academy: " + academy;
+    }
 }

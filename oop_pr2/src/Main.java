@@ -9,9 +9,9 @@ public class Main {
 
         Cadet cadet = new Cadet("Max", 15, "male", "Radoviy", "LDUBGD");  
         cadet.work();  
-    
-    System.out.println(person);
-    System.out.println(student);
-    System.out.println(cadet);
+
+        System.out.println(person);
+        System.out.println(student);
+        System.out.println(cadet);
     }
 }
